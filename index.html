@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h2>REGISTRATION FORM</h2>
+        </div>
+        <form class="form" id="form">
+            <div class="form_control">
+                <label>Username</label>
+                <input type="text" name="" id="username" placeholder="Enter your full name" autocomplete="off">
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Enter valid username</small>
+            </div>
+            <div class="form_control">
+                <label>Email</label>
+                <input type="email" name="" id="email" placeholder="Enter your Email" autocomplete="off">
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Enter valid Email</small>
+            </div>
+            <div class="form_control">
+                <label>Phone Number</label>
+                <input type="number" name="" id="phone" placeholder="Enter your phone number" autocomplete="off">
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Enter valid phone number</small>
+            </div>
+            <div class="form_control">
+                <label>Password</label>
+                <input type="password" name="" id="password" placeholder="Enter your password" autocomplete="off">
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Enter valid password</small>
+            </div>
+            <div class="form_control">
+                <label>Confirm Password</label>
+                <input type="password" name="" id="cpassword" placeholder="Re-Enter your password" autocomplete="off">
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>Enter valid password</small>
+            </div>
+            <input type="submit" value="submit" class="btn">
+        </form>
+    </div>
+
+    <script src="index.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+</body>
+</html>
